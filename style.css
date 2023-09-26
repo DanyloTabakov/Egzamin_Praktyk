@@ -34,3 +34,120 @@ header {
     flex-direction: row;
     align-items: center;
 }
+
+.pricing-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.pricing-item {
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pricing-price {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.pricing-features {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pricing-features li {
+    margin: 5px 0;
+}
+
+.pricing-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.pricing-button:hover {
+    background-color: #0056b3;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.contact-info {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+}
+
+.submit-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
