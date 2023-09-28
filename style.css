@@ -99,7 +99,7 @@ header p {
 }
 
 .benefits {
-    background-color: #fff;
+    background-color: #F7F7F7;
     padding: 50px 0;
     text-align: center;
 }
@@ -116,6 +116,35 @@ header p {
     color: #333;
 }
 
+.blockOne {
+    background-color: #FFFFFF;
+}
+
+.blockTwo {
+    background-color: #FFFFFF;
+}
+
+.blockThree {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.text {
+    margin-right: 60px;
+    margin-left: 300px;
+}
+
+.image {
+    background-color: #55DFB4;
+    padding: 20px;
+    margin-left: 60px;
+}
+
+.blockThree img {
+    max-width: 100%;
+    height: auto;
+}
 
 .pricing-list {
     display: flex;
@@ -232,4 +261,23 @@ textarea {
 
 .submit-button:hover {
     background-color: #0056b3;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 89px;
+    width: 1400px;
+    background-color: #555;
+    padding: 10px;
+}
+
+h4 {
+    margin: 0;
+    color: white;
+}
+
+.social-media {
+    margin-left: 1200px;
+    margin-right: 0px;
 }
